@@ -1,0 +1,29 @@
+{
+  "name": "mm-tests-interface",
+  "version": "0.0.1",
+  "description": "Interface to manage tests through a data adapter",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meep-meep/tests-interface.git"
+  },
+  "keywords": [
+    "meep-meep",
+    "tests"
+  ],
+  "author": "Joachim Revol-Tissot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meep-meep/tests-interface/issues"
+  },
+  "homepage": "https://github.com/meep-meep/tests-interface",
+  "dependencies": {
+    "rsvp": "^3.0.17"
+  }
+}
