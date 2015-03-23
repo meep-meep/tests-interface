@@ -24,6 +24,10 @@ TestsInterface.prototype = {
                 }.bind(this));
                 return Object.keys(globalTags);
             }.bind(this));
+    },
+
+    getTests: function getTests() {
+        return this._dataAdapter.get('tests/library');
     }
 };
 
